@@ -19,30 +19,30 @@
 || [Explain Extending Bindings?](#Explain-Extending-Bindings) |
 || Service Providers |
 || [What are Service Providers?](#what-are-service-providers) |
-|| Facades |
+|| Фасады |
 || [What are Facades?](#what-are-facades) |
 || HTTP Verbs |
 || [What are HTTP Verbs?](#http-verbs) |
 || [What is the difference between GET and POST?](#What-is-the-difference-between-GET-and-POST) |
 || [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
-|| **Artisan Console** |
-|| Generating Commands |
+|| **Консоль Artisan** |
+|| Команды генерации |
 || [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
 || [List all make commands](#List-all-make-commands) |
 || [Command I/O](https://laravel.com/docs/8.x/artisan#defining-input-expectations)|
 || Registering Commands (https://laravel.com/docs/8.x/artisan#registering-commands) |
 || Executing Commands (https://laravel.com/docs/8.x/artisan#programmatically-executing-commands) |
-|| **Caching** |
+|| **КЭШ** |
 || Drivers / Configuration (https://laravel.com/docs/8.x/cache#driver-prerequisites)|
 || Storing Items (https://laravel.com/docs/8.x/cache#storing-tagged-cache-items) |
 || Retrieving Items (https://laravel.com/docs/8.x/cache#accessing-tagged-cache-items)|
 || Cache Tags (https://laravel.com/docs/8.x/cache#cache-tags) |
 || Creating Custom Drivers (https://laravel.com/docs/8.x/cache#adding-custom-cache-drivers) |
-|| **Collections** |
+|| **Коллекции** |
 || Creating (https://laravel.com/docs/8.x/collections#creating-collections) / Extending Collections (https://laravel.com/docs/8.x/collections#extending-collections) |
 || Collection Methods (https://laravel.com/docs/8.x/collections#available-methods) |
 || Higher-order Messages (https://laravel.com/docs/8.x/collections#higher-order-messages) |
-|| **Controllers** |
+|| **Контролеры** |
 || [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
 || Defining Controllers (https://laravel.com/docs/8.x/controllers#defining-controllers) |
 || Controller Namespacing |
@@ -51,7 +51,7 @@
 || Resource Controllers (https://laravel.com/docs/8.x/controllers#resource-controllers) |
 || Dependency Injection (https://laravel.com/docs/8.x/controllers#dependency-injection-and-controllers) |
 || Route Caching (https://laravel.com/docs/8.x/controllers#route-caching) |
-|| **Database** |
+|| **База данных** |
 || Query Builder (https://laravel.com/docs/8.x/queries)|
 || Pagination (https://laravel.com/docs/8.x/pagination) |
 ||    [How to do Pagination in DB?](#how-to-do-pagination-in-db) |
@@ -68,32 +68,32 @@
 || API Resources (https://laravel.com/docs/8.x/eloquent-resources) |
 || Serialization (https://laravel.com/docs/8.x/eloquent-serialization) |
 || Scopes (https://laravel.com/docs/8.x/eloquent#global-scopes) |
-|| **Events** (https://laravel.com/docs/8.x/events) |
+|| **События (Events)** (https://laravel.com/docs/8.x/events) |
 || [What are Events?](#what-are-events) |
 || [What are Listeners (https://laravel.com/docs/8.x/events#defining-listeners)?](#what-are-listeners) |
 || Registering Events  / Listeners (https://laravel.com/docs/8.x/events#registering-events-and-listeners) |
 || Queued Listeners (https://laravel.com/docs/8.x/events#queued-event-listeners) |
 || Dispatching Events (https://laravel.com/docs/8.x/events#dispatching-events) |
 || Subscribing to Events (https://laravel.com/docs/8.x/events#event-subscribers) |
-|| **File Storage** (https://laravel.com/docs/8.x/filesystem) |
+|| **Файловое хранилище** (https://laravel.com/docs/8.x/filesystem) |
 || Configuration / Drivers  (https://laravel.com/docs/8.x/filesystem#configuration) |
 || Storing (https://laravel.com/docs/8.x/filesystem#storing-files) / Retrieving Files (https://laravel.com/docs/8.x/filesystem#retrieving-files) |
 || Custom Filesystems (https://laravel.com/docs/8.x/filesystem#custom-filesystems) |
-|| **Frontend** |
+|| **Фронтенд** |
 || Blade Templating (https://laravel.com/docs/8.x/blade) |
 || Localization (https://laravel.com/docs/8.x/localization) |
 || Asset Compilation (https://laravel.com/docs/8.x/mix) |
-|| **Helper Methods** (https://laravel.com/docs/8.x/helpers) |
+|| **Вспомогательные методы** (https://laravel.com/docs/8.x/helpers) |
 || Arrays / Objects (https://laravel.com/docs/8.x/helpers#arrays-and-objects-method-list) |
 || Paths (https://laravel.com/docs/8.x/helpers#paths-method-list) |
 || Strings (https://laravel.com/docs/8.x/helpers#strings-method-list) |
 || URLs (https://laravel.com/docs/8.x/helpers#urls-method-list) |
 || Misc (https://laravel.com/docs/8.x/helpers#miscellaneous-method-list) |
-|| **Logging** (https://laravel.com/docs/8.x/logging#introduction) |
+|| **Логирование** (https://laravel.com/docs/8.x/logging#introduction) |
 || Configuration (https://laravel.com/docs/8.x/logging#configuration) |
 || Writing to Specific Channels (https://laravel.com/docs/8.x/logging#configuring-the-channel-name) |
 || Creating Custom Channels (https://laravel.com/docs/8.x/logging#advanced-monolog-channel-customization) |
-|| **Mail** (https://laravel.com/docs/8.x/mail#introduction) |
+|| **Почта** (https://laravel.com/docs/8.x/mail#introduction) |
 || Drivers (https://laravel.com/docs/8.x/mail#driver-prerequisites) / Configuration (https://laravel.com/docs/8.x/mail#configuration)  |
 || Generating Mailables (https://laravel.com/docs/8.x/mail#generating-mailables) |
 || Writing Mail (https://laravel.com/docs/8.x/mail#writing-mailables) |
@@ -103,7 +103,7 @@
 || **Middleware** |
 || Defining / Registering Middleware (https://laravel.com/docs/8.x/middleware#registering-middleware) |
 || Middleware Parameters (https://laravel.com/docs/8.x/middleware#middleware-parameters)|
-|| **Notifications** |
+|| **Уведомления (Notifications)** |
 || Creating Notifications (https://laravel.com/docs/8.x/notifications#introduction) |
 || Sending Notifications (https://laravel.com/docs/8.x/notifications#sending-notifications) |
 || Mail Notifications (https://laravel.com/docs/8.x/notifications#mail-notifications) |
@@ -638,15 +638,7 @@ $publisher->publish('Hello World!');
     
 10. ### Что такое запрос-ответ?
 
-    When we type a URL, a request is sent to the server. The server goes from /public to bootstrap folder from which is goes to the routes file. The route files sends it the right controller/view.
-
-When we access via any of the 4 ways,
-1. write a url
-2. write a console command
-3. do a broadcast
-4. hit an api
-
-the request goes to index.php (which usually is in the /public folder or the root folder). From there, the request goes to bootstrap folder, then to the Auth rules and after that lands in the routes folder in any of the web, api, console or the broadcast routes which is dependant on which route you called.
+    Когда мы вводим URL-адрес, на сервер отправляется запрос. Сервер переходит из /public в папку bootstrap, из которой он переходит в файл routes. Файлы маршрутов отправляют ему нужный контроллер / представление.
 
    **[⬆ Наверх](#таблица)**
     
