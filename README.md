@@ -1,13 +1,13 @@
-# Top Laravel Interview Questions & Answers (500 Interview Questions)
+# Лучшие вопросы и ответы для интервью на Laravel (500 вопросов для интервью)
 
-> Click :star: if you like the project. Pull Request are highly appreciated.
-### Table of Contents
+> Нажмите :star: если вам понравился проект. Мы будем очень признательны, если вы откликнетесь на запрос.
+### Таблица
 
-| No. | Questions |
+| No. | Вопрос |
 | --- | --------- |
-|| **ARCHITECTURE** |
-|| Request Lifecycle |
-|| [What is Request-Response?](#what-is-request-response) |
+|| **АРХИТЕКТУРА** |
+|| Жизненный цикл запроса |
+|| [Что такое запрос-ответ?](#what-is-request-response) |
 || Service Container Binding and Resolution |
 || [What are service containers?](#What-are-service-containers) |
 || [What is Binding?](#What-is-Binding) |
@@ -1966,7 +1966,7 @@ the request goes to index.php (which usually is in the /public folder or the roo
 
    https://medium.com/@nedsoft/laravel-localization-made-simple-8ee4a34731e7
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Back to Top](#таблица)**
     
 205. ### How to share data with views?
 
